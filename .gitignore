@@ -1,0 +1,15 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+/data
+/logs
+/scopus/creds/
+/scopus/data
+/scopus/logs
+

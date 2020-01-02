@@ -56,9 +56,9 @@ def putInfoInDB(info_persons):
         body = {
             'values': values
         }
-
         result = service.spreadsheets().values().append(
             spreadsheetId=SCOPUS_TEACHER_INFO_SHEET_ID, range=SCOPUS_TEACHER_INFO_PAGE_RANGE_NAME,
             valueInputOption='RAW', body=body).execute()
+
         print('Add info abbout' + infoPerson.name + ' : {0} cells appended.'.format(
             result.get('updates').get('updatedCells')))

@@ -1,6 +1,6 @@
 from googleDisk import getOurTeacher, putInfoInDB
-from scopus.Person import Person, PersonFullInfo
-from scopus.scopusRequest import getInfoAboutTeacher
+from Person import PersonFullInfo
+from scopusRequest import getInfoAboutTeacher
 from termcolor import colored
 
 teacher = getOurTeacher()

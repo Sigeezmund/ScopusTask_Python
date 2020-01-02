@@ -1,12 +1,10 @@
 from __future__ import print_function
 
-import gspread
 from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
-from google.auth.transport.requests import Request
 from oauth2client.service_account import ServiceAccountCredentials
 
-from scopus.Person import Person
+from Person import Person
 
 SCOPES = ['https://spreadsheets.google.com/feeds',
           'https://www.googleapis.com/auth/drive']

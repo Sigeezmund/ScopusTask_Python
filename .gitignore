@@ -9,8 +9,7 @@ venv.bak/
 
 /data
 /logs
-/scopus/creds/
-/scopus/data
-/scopus/logs
+/creds/
 
 .idea
+.DS_Store
